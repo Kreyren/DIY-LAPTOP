@@ -1,4 +1,4 @@
-# How to contribute
+# Contribution guidelines
 
 It is great that you're reading this!
 We need volunteer developers to help this project come to fruition.
@@ -7,19 +7,23 @@ This guide is intended to direct you toward useful resources with the goal of en
 
 ## Cultivate new ideas
 
-  * [#olimex chat.freenode.net channel](https://webchat.freenode.net/?channels=olimex): Chat about your ideas with like-minded individuals; we want you working on things you're excited about.
+  * [#olimex libera.chat channel](https://web.libera.chat/?channels=olimex): Chat about your ideas with like-minded individuals; we want you working on things you're excited about.
   * [TERES-I user forum](https://www.olimex.com/forum/index.php?board=39.0): Ask questions, provide comments and feedback on a wide variety of topics.
 
 ## Understand the project
 
-  * [TERES-I Overview](doc/web/dev_overview.md): Where we are
-  * [Roadmap](doc/web/dev_roadmap.md): Where we are headed
-  * [Wishlist](doc/web/dev_wishlist.md): Where we desire your help the most
   * [Bug and issue reporting](https://github.com/OLIMEX/DIY-LAPTOP/issues): Search for similar outstanding issues before submitting a new one
+  * [Where to get parts](https://www.olimex.com/Products/DIY-Laptop/): Look for spare parts and kits
+
+## Hardware development
+
+1. All new changes has to be tested physically to be mergable
+2. Use the same version as the KiCAD file, do NOT update
 
 ## Coding process
 
 1. Fork this repository
+2. Create a new branch (Do not use the default branch for your changes!)
 2. Make local changes using the Git code versioning tool
 3. Commit and push the changes to your local fork
 4. Submit a [Pull Request (PR) on this main repository](https://github.com/OLIMEX/DIY-LAPTOP/pull/new/master) and select your local branch to be merged
@@ -59,7 +63,7 @@ Branches are not inherently expected to build; they provide a staging area for y
 
 ### Testing
 
-Test your code against the master branch **prior** to submitting a PR!
+Test your code against the default branch **prior** to submitting a PR!
 One test per feature is ideal, but more tests should be included for more complicated features.
 
 ### Submitting a PR
